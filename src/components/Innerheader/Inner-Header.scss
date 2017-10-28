@@ -1,0 +1,225 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.root {
+  height: 60px;
+  background-color: #536a94;
+    clear: left;
+    width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.headerDropdown {
+  float: left;
+  width: 170px;
+}
+.headerDropdown label{
+  height: 13px;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+}
+.headerGroupDropdown {
+  float: left;
+  width: 110px;
+  position: relative;
+}
+.headerGroupDropdown label{
+  height: 13px;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+}
+.headerGroupDropdown:after
+{
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 25px;
+  width: 2px;
+  height: 24px;
+  opacity: 0.48;
+  border-radius: 100px;
+  border: solid 0.5px #c6c9cd;
+}
+
+
+.headerStudentsDropdown {
+  float: left;
+  width: 110px;
+  position: relative;
+}
+.headerStudentsDropdown label{
+  height: 13px;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+    float: left;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.dropdownImage
+{
+  display: block;
+  float: left;
+}
+
+
+
+.academicYear {
+  float: left;
+  width: 120px;
+  position: relative;
+}
+.academicYear:after
+{
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 25px;
+  width: 2px;
+  height: 24px;
+  opacity: 0.48;
+  border-radius: 100px;
+  border: solid 0.5px #c6c9cd;
+}
+.academicYear label{
+  height: 13px;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+}
+.academicYearDropDown
+{
+  padding: 6px 12px !important;
+  min-height: auto !important;
+  width: 100px !important;
+  height: 24px !important;
+  border-radius: 3px !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+
+
+  .dropdown.icon {
+    padding: .5em;
+    display: none;
+  }
+}
+
+.topDropdowns {
+  min-width: auto !important;
+  width: 150px !important;
+  min-height: auto !important;
+  height: 24px !important;
+  border-radius: 3px;
+  background-color: rgba(67, 67, 67, 0.18) !important;
+  border: solid 1px rgba(255, 255, 255, 0.5) !important;
+  padding: 4px 12px !important;
+  color: #fff !important;
+}
+.groupDropdown {
+  min-width: auto !important;
+  width: 100px !important;
+  min-height: auto !important;
+  height: 24px !important;
+  border-radius: 3px;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 4px 12px !important;
+  color: #fff !important;
+}
+.studentsDropdown {
+  min-width: auto !important;
+  width: 80px !important;
+  min-height: auto !important;
+  height: 24px !important;
+  border-radius: 3px;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 4px 12px !important;
+  color: #fff !important;
+  float: left;
+  margin-top: -2px !important;
+}
+
+.Select-menu-outer {
+  display: none;
+}
+
+.topSubjects
+{
+  float: left;
+  width: 75%;
+  label{
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+  }
+}
+.topStudents
+{
+  float: left;
+  width: 25%;
+  label{
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+  }
+}
+.buttons
+{
+  width: 100%;
+  float: left;
+}
+
+.buttonsLinks
+{
+  float: left;
+}
+
+input[type=radio] {
+		display:none;
+	}
+
+input[type=radio] + label {
+		display:inline-block;
+		padding: 0px 12px;
+    margin-right: 10px;
+		text-align: center;
+		cursor: pointer;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    color: #ffffff;
+    height: 24px;
+    font-weight: 300;
+	}
+
+	 input[type=radio]:checked + label{
+      height: 24px;
+      border-radius: 4px;
+      background-color: #cf6387;
+	}
